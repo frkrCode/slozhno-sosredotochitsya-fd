@@ -315,6 +315,7 @@ img {
   }
   .main_section {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
   }
   .what .main_section-title {
     grid-column: 1 / -1;
