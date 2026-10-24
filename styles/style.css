@@ -216,7 +216,7 @@ img {
   }
   
   .header .title {
-    margin-left: -40px;
+    margin-left: -20px;
   }
 
   .header .title_decor {
@@ -232,7 +232,7 @@ img {
   }
   
   .main_section {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 236px 1fr 1fr;
   }
 
   .why .content_title {
