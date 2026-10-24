@@ -212,9 +212,9 @@ img {
 
 @media (min-width: 768px) {
   .title {
-    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
+  
   .header .title {
     margin-left: -40px;
   }
