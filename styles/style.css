@@ -211,10 +211,11 @@ img {
 }
 
 @media (min-width: 768px) {
+    
   .title {
-    font-size: (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-  
+
   .header .title {
     margin-left: -20px;
   }
@@ -312,7 +313,9 @@ img {
     width: 40%;
     min-width: 491px;
   }
-
+  .main_section {
+    grid-template-columns: repeat(3, 1fr);
+  }
   .what .main_section-title {
     grid-column: 1 / -1;
     inline-size: calc((100% - 40px) / 3);
