@@ -31,7 +31,7 @@
   bottom: var(--page-padding);
   left: var(--page-padding);
   border-block-end: 1px solid var(--button-color);
-  border-inline-start: 1px solid var(--accent-color);
+  border-inline-start: 1px solid var(--button-color);
 }
 
 .decorated-zone::before {
@@ -43,8 +43,8 @@
   height: 25px;
   top: var(--page-padding);
   right: var(--page-padding);
-  border-block-start: 1px solid var(--accent-color);
-  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--button-color);
+  border-inline-end: 1px solid var(--button-color);
   ;
 }
 
@@ -275,6 +275,7 @@ img {
     grid-row: 4 / 5;
   }
 }
+
 @media (min-width: 1024px) {
   .header__theme-menu {
     justify-self: center;
@@ -293,15 +294,16 @@ img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: none;
   }
-  .what .main_section-title {
+  
+  .what .main_section_title {      /*мдаааа))))))) всю голову сломал , не первый раз уже пол дня теряешь в поисках ошибки с путаницей "_" и  "-" https://skrinshoter.ru/se98mvADdKr*/
     grid-column: 1 / -1;
     inline-size: calc((100% - 40px) / 3);
   }
 
   .what .main_section_content {
     grid-column: span 1;
-    grid-row: 2;
-  }
+  } 
+
   .footer {
     block-size: max(100vb, 768px);
   }
