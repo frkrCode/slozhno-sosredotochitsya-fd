@@ -131,6 +131,10 @@
   gap: 20px;
 }
 
+.main_section_title {
+  color: var(--title-color);
+}
+
 .title_decor_how {
   font-weight: 400;
 }
